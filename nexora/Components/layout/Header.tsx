@@ -5,11 +5,11 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-    <header>
+    <header className="flex items-center justify-between p-4 m-1">
          <Link href="/">
             <Image src="/nexcentLogo.png" alt="Nexcent Logo" width={100} height={40} />
         </Link>
-    <nav>
+    <nav className="flex space-x-4">
         <Link href="/">Home</Link>
         <Link href="/services">Services</Link>
         <Link href="/features">Feature</Link>
@@ -17,7 +17,7 @@ const Header = () => {
         <Link href="/testimonials">Testimonials</Link>
         <Link href="/faq">FAQ</Link>
     </nav>
-    <div>
+    <div className="flex space-x-4">
         <button>Login</button>
         <button>Sign Up</button>
     </div>
