@@ -1,6 +1,5 @@
-import Link from 'next/dist/client/link'
+import Link from "next/link";
 import Image from 'next/image'
-import React from 'react'
 
 import {headerData} from '@/data/header'
 
