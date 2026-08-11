@@ -16,7 +16,17 @@ const Services = () => {
             </div>
          </div>
         
-        
+        <div>
+            <h2>{servicesData.title2}</h2>
+            <p>{servicesData.subtitle2}</p>
+            <div>
+                {servicesData.services.map((service, index) => (
+                    <div key={index}>
+                        <Image src={service.icon} alt={service.title} width={50} height={50} />
+                    </div>
+                ))}
+            </div>
+        </div>   
 
     </div>
     </>
