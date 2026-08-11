@@ -16,13 +16,16 @@ const Services = () => {
             </div>
          </div>
         
-        <div>
-            <h2>{servicesData.title2}</h2>
-            <p>{servicesData.subtitle2}</p>
-            <div>
+        <div className="text-center mt-10">
+            <h2 className="text-3xl font-bold text-[#4D4D4D] mb-7">{servicesData.title2}</h2>
+            <p className="text-md text-[#666] mb-8">{servicesData.subtitle2}</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
                 {servicesData.services.map((service, index) => (
-                    <div key={index}>
+                    <div key={index} 
+                    className="flex flex-col items-center p-6 bg-[#F5F7FA] rounded-lg shadow-md m-4 p-4">
                         <Image src={service.icon} alt={service.title} width={50} height={50} />
+                        <h3>{service.title}</h3>
+                        <p>{service.description}</p>
                     </div>
                 ))}
             </div>
