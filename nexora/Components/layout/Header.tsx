@@ -5,7 +5,8 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-        <Link href="/">
+    <header>
+         <Link href="/">
             <Image src="/nexcentLogo.png" alt="Nexcent Logo" width={100} height={40} />
         </Link>
     <nav>
@@ -21,6 +22,7 @@ const Header = () => {
         <button>Sign Up</button>
     </div>
 
+    </header>
     </>
   )
 }
