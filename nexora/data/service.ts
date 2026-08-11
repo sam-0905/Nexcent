@@ -21,7 +21,7 @@ export const servicesData: ServicesData = {
         alt: "Company Logo"},
     ],
     title2: "Manage your entire community in a single system",
-    subtitle2: "Who is Nextcent suitable for?.",
+    subtitle2: "Who is Nextcent suitable for ?",
     services: [
         {
             title: "Membership Organisations",
@@ -38,5 +38,22 @@ export const servicesData: ServicesData = {
             description: "Our membership management software provides full automation of membership renewals and payments",
             icon: "/icons/Clubs.png"
         }
-    ]
+    ],
+
+    client: {
+         logo: {
+           src: "/client-image.png",
+           alt: "Client illustration",
+            },
+
+        title: "The unseen of spending three years at Pixelgrade",
+
+        para:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+         cta: {
+            label: "Learn More",
+           href: "#learn-more",
+            },
+  },
 };
