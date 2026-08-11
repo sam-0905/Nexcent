@@ -30,6 +30,13 @@ const Services = () => {
                 ))}
             </div>
         </div>   
+        
+        <div className="text-center mt-10">
+            <Image src={servicesData.client.logo.src} alt={servicesData.client.logo.alt} width={400} height={400}></Image>
+            <h2 className="text-3xl font-bold text-[#4D4D4D] mb-7">{servicesData.client.title}</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dignissimos nulla rem repellendus expedita officia harum nostrum nam iusto reprehenderit accusamus, neque unde nesciunt numquam sint? Harum perferendis fugiat dolorum.</p>
+            <button>{servicesData.client.cta.href}</button>
+        </div>
 
     </div>
     </>
