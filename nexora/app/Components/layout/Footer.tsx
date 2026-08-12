@@ -30,7 +30,45 @@ const Footer = () =>{
              </div>
            </div>
 
+         <div className="flex flex-col items-center lg:px-20 px-20">
+            <h3 className="mb-5 text-xl font-semibold">
+            Company
+             </h3>
+
+          <div className="flex flex-col gap-3 text-sm text-gray-300 mb-8">
+            {footer.company.map((company, index) => (
+              <div key={index} className="flex flex-col gap-3">
+                <Link href="#about" className="hover:text-white">
+                  {company.about}
+                </Link>
+
+                <Link href="#blog" className="hover:text-white">
+                  {company.blog}
+                </Link>
+
+                <Link href="#contact" className="hover:text-white">
+                  {company.contactUs}
+                </Link>
+
+                <Link href="#pricing" className="hover:text-white">
+                  {company.price}
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
          </div>
+
+
         </>
     )
 }
