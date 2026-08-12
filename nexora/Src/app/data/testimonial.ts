@@ -1,4 +1,4 @@
-import { TestimonialData } from "@/.next/types/home"
+import { TestimonialData } from "@/Src/app/types/home"
 
 export const testimonial :TestimonialData = {
     logo:{

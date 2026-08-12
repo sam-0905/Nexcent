@@ -1,4 +1,4 @@
-import { HeroData } from "@/.next/types/home";
+import { HeroData } from "@/Src/app/types/home";
 
 
 export const heroData: HeroData = {

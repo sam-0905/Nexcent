@@ -1,4 +1,4 @@
-import { MarketingData } from "@/.next/types/home"
+import { MarketingData } from "@/Src/app/types/home"
 
 export const marketing :MarketingData = {
     title:"Caring is the new marketing",

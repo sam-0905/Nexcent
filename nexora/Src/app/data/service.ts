@@ -1,4 +1,4 @@
-import { ServicesData } from "@/.next/types/home";
+import { ServicesData } from "@/Src/app/types/home";
 
     
 export const servicesData: ServicesData = {

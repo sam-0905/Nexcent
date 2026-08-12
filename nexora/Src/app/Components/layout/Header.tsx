@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from 'next/image'
 
-import {headerData} from '@/data/header'
+import {headerData} from '@/Src/app/data/header'
 
 const Header = () => {
   return (

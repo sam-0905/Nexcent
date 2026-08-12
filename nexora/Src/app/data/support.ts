@@ -1,4 +1,4 @@
-import { SupportData } from "@/.next/types/home"
+import { SupportData } from "@/Src/app/types/home"
 
 export const supportData : SupportData = {
     status:{

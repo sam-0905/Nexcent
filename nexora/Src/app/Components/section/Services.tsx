@@ -1,5 +1,5 @@
 
-import {servicesData} from "@/data/service";
+import {servicesData} from "@/Src/app/data/service";
 import Image from "next/image";
 import Link from "next/link";
 

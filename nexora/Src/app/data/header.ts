@@ -1,4 +1,4 @@
-import { HeaderData } from "@/.next/types/home";
+import { HeaderData } from "@/Src/app/types/home";
 
 export const headerData: HeaderData = {
   logo: {
