@@ -1,4 +1,4 @@
-import {testimonial} from "@/Src/app/data/testimonial"
+import {testimonial} from "@/app/data/testimonial"
 import Image from "next/image"
 import Link from "next/link"
 

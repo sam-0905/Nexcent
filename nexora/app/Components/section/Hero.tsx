@@ -1,5 +1,5 @@
 
-import {heroData} from "@/Src/app/data/hero";
+import {heroData} from "@/app/data/hero";
 import Image from "next/image";
 
 

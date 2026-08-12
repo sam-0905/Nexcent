@@ -1,4 +1,4 @@
-import { SupportData } from "@/Src/app/types/home"
+import { SupportData } from "@/app/types/home"
 
 export const supportData : SupportData = {
     status:{

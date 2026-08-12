@@ -1,4 +1,4 @@
-import {marketing} from "@/Src/app/data/marketing"
+import {marketing} from "@/app/data/marketing"
 import Image from "next/image"
 import Link from "next/link"
 

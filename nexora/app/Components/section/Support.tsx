@@ -1,5 +1,5 @@
 import Image from "next/image"
-import {supportData} from "@/Src/app/data/support" 
+import {supportData} from "@/app/data/support" 
 
 const Support = () => {
   return (

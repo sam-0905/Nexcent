@@ -8,10 +8,6 @@ export interface HeaderData {
         label: string;
         href: string;
     }[];
-    cta: {
-        label: string;
-        href: string;
-    };
 }
 
 export interface HeroData{
