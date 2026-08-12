@@ -127,3 +127,26 @@ export interface MarketingData{
         href: string;
     },
 }
+
+
+export interface Footer{
+     logo:{
+        src: string;
+        alt: string;
+    },
+    copyRight:string;
+    text: string
+    company:{
+            about: string
+            blog: string
+            contactUs: string
+            price: string
+    }[],
+    date:string
+    input:InputProps
+}
+
+interface InputProps {
+  type: string;
+  placeholder: string;
+}
