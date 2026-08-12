@@ -6,8 +6,8 @@ export const supportData : SupportData = {
     subtitle:"We reached here with our hard work and dedication",
     achievements:[
         {
-            logo: {
-                src: "/icons/members",
+           logo: {
+                src: "/icons/members.png",
                 alt: "members"
             },
             title: "2,245,341",
@@ -15,15 +15,15 @@ export const supportData : SupportData = {
         },
          {
             logo: {
-                src: "/icons/clubs",
+                src: "/icons/clubs.png",
                 alt: "clubs"
             },
             title: "46,328",
             subtitle:"clubs"
         },
          {
-            logo: {
-                src: "/icons/bookings",
+           logo: {
+                src: "/icons/bookings.png",
                 alt: "bookings"
             },
             title: "828,687",
@@ -31,7 +31,7 @@ export const supportData : SupportData = {
         },
          {
             logo: {
-                src: "/icons/Payments",
+                src: "/icons/Payments.png",
                 alt: "Payments"
             },
             title: "1,926,436",
