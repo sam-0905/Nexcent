@@ -1,6 +1,7 @@
 
 import {servicesData} from "@/data/service";
 import Image from "next/image";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -31,12 +32,18 @@ const Services = () => {
             </div>
         </div>   
         
-        <div className="text-center mt-10">
-            <Image src={servicesData.client.logo.src} alt={servicesData.client.logo.alt} width={400} height={400}></Image>
-            <h2 className="text-3xl font-bold text-[#4D4D4D] mb-7">{servicesData.client.title}</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dignissimos nulla rem repellendus expedita officia harum nostrum nam iusto reprehenderit accusamus, neque unde nesciunt numquam sint? Harum perferendis fugiat dolorum.</p>
-            <button>{servicesData.client.cta.href}</button>
-        </div>
+        <div className="flex flex-col items-center justify-between mt-10 gap-3 ml-auto md:flex-row">
+           <div className="flex-1">   
+                <Image src={servicesData.client.logo.src} alt={servicesData.client.logo.alt} width={400} height={400} className="mx-auto object-contain"></Image>
+            </div>
+            <div className="flex-1 space-y-10 m-1 py-2">
+                 <h2 className="text-3xl font-bold text-[#4D4D4D] mb-7">{servicesData.client.title}</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dignissimos nulla rem repellendus expedita officia harum nostrum nam iusto reprehenderit accusamus, neque unde nesciunt numquam sint? Harum perferendis fugiat dolorum.</p>
+                 <Link href={servicesData.client.cta.href} className="bg-[#4caf4f] text-white px-5 py-3 rounded">
+                     {servicesData.client.cta.label}
+                    </Link>
+            </div>
+           </div>
 
     </div>
     </>
