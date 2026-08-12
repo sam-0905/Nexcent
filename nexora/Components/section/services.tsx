@@ -18,27 +18,27 @@ const Services = () => {
          </div>
         
         <div className="text-center mt-10">
-            <h2 className="text-3xl font-bold text-[#4D4D4D] mb-7">{servicesData.title2}</h2>
+            <h2 className="text-3xl font-bold text-[#4D4D4D] mb-7 max-w-md items-center text-center">{servicesData.title2}</h2>
             <p className="text-md text-[#666] mb-8">{servicesData.subtitle2}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
                 {servicesData.services.map((service, index) => (
                     <div key={index} 
-                    className="flex flex-col items-center p-6 bg-[#F5F7FA] rounded-lg shadow-md m-4 p-4">
+                    className="flex flex-col items-center space-y-4 p-6 rounded-lg shadow-md m-4 ">
                         <Image src={service.icon} alt={service.title} width={50} height={50} />
-                        <h3>{service.title}</h3>
+                        <h3 className="text-2xl font-bold text-[#4D4D4D] mb-7">{service.title}</h3>
                         <p>{service.description}</p>
                     </div>
                 ))}
             </div>
         </div>   
         
-        <div className="flex flex-col items-center justify-between mt-10 gap-3 ml-auto md:flex-row">
+        <div className="flex flex-col items-center justify-around mt-10 gap-3 ml-auto md:flex-row">
            <div className="flex-1">   
                 <Image src={servicesData.client.logo.src} alt={servicesData.client.logo.alt} width={400} height={400} className="mx-auto object-contain"></Image>
             </div>
             <div className="flex-1 space-y-10 m-1 py-2">
                  <h2 className="text-3xl font-bold text-[#4D4D4D] mb-7">{servicesData.client.title}</h2>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dignissimos nulla rem repellendus expedita officia harum nostrum nam iusto reprehenderit accusamus, neque unde nesciunt numquam sint? Harum perferendis fugiat dolorum.</p>
+                 <p className="text-md text-[#666] mb-8 mr-5">{servicesData.client.para}</p>
                  <Link href={servicesData.client.cta.href} className="bg-[#4caf4f] text-white px-5 py-3 rounded">
                      {servicesData.client.cta.label}
                     </Link>
