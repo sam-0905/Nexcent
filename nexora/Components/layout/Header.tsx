@@ -18,7 +18,7 @@ const Header = () => {
           ))}
         </nav>
 
-    <div className="flex space-x-3">
+    <div className="flex space-x-3 mr-3">
        <button className= "text-[#4caf4f] px-4 py-2 rounded">Login</button>
       <button className="bg-[#4caf4f] text-white px-4 py-2 rounded">Sign up</button>
     </div>
