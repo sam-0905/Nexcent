@@ -3,7 +3,7 @@ import {Footer} from "../types/home";
 
 export const footer: Footer = {
     logo:{
-        src:"/nexcent-logo-black.png",
+        src:"/nexcentLogo.png",
         alt:"logo"
     },
     copyRight:"Copyright © 2026 Nexcent ltd",
