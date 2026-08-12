@@ -20,6 +20,25 @@ const Testimonials = () => {
         </div>
     </div>
 
+            
+    <div>
+        <div>
+            <Image
+            src={testimonial.company.logo.src}
+            alt={testimonial.company.logo.alt}
+            width={400}
+            height={400}
+            />
+        </div>
+        <div>
+            <p>{testimonial.company.para}</p>
+            <h2>{testimonial.company.title}</h2>
+            <p>{testimonial.company.para2}</p>
+            <Link href={testimonial.company.cta.href}>{testimonial.company.cta.label} →</Link>
+        </div>
+    </div>
+    
+
     </>)
   
 }
