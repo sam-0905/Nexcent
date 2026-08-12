@@ -3,7 +3,7 @@ import { MarketingData } from "@/.next/types/home"
 export const marketing :MarketingData = {
     title:"Caring is the new marketing",
     subtitle:"The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​",
-    card:[{
+    cards:[{
         logo:{
         src: "/images/image1.png",
         alt: "image1",
