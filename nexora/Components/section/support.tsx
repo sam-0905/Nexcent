@@ -4,12 +4,14 @@ import {supportData} from "@/data/support"
 const Support = () => {
   return (
     <>
-    <div>
-        <div>
-        <h2>{supportData.status.title}</h2>
-        <p>{supportData.status.subtitle}</p>
+    <div className="flex flex-col items-center md:flex-row gap-10 mt-10 mb-8 justify-between">
+        <div className="flex-1 px-6 m-7 ">
+        <h2 className="text-4xl font-bold text-[#4D4D4D] mb-7">{supportData.status.title}
+          <span className="block text-[#4caf4f]">business reinvent itself</span>
+        </h2>
+        <p className="text-md text-[#666] mb-8">{supportData.status.subtitle}</p>
         </div>
-        <div>
+        <div className="flex">
         {supportData.status.achievements.map((achievement) => (
             <div key={achievement.title}>
             <Image 
