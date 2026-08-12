@@ -4,7 +4,8 @@ import {supportData} from "@/data/support"
 const Support = () => {
   return (
     <>
-    <div className="flex flex-col items-center md:flex-row gap-3 mt-10 mb-8 py-10 justify-around bg-[#f5f7fa]">
+    <div className="flex flex-col items-center gap-3 bg-[#f5f7fa] px-6 py-10 md:flex-row md:justify-between lg:px-20">
+
 
         <div className="flex-1 px-2 m-2 ">
         <h2 className="text-4xl font-bold text-[#4D4D4D] mb-7 mt-5">{supportData.status.title}
