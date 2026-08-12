@@ -4,6 +4,7 @@ import Marketing from "@/app/Components/section/Marketing";
 import Services from "@/app/Components/section/Services";
 import Support from "@/app/Components/section/Support";
 import Testimonials from "@/app/Components/section/Testimonial";
+import Footer from "./Components/layout/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Testimonials/>
         <Marketing/>
       </main>
+      <Footer/>
     </div>
   );
 }
