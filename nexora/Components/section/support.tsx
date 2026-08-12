@@ -4,16 +4,16 @@ import {supportData} from "@/data/support"
 const Support = () => {
   return (
     <>
-    <div className="flex flex-col items-center md:flex-row gap-5 mt-10 mb-8 justify-between">
+    <div className="flex flex-col items-center md:flex-row gap-3 mt-10 mb-8 py-10 justify-around bg-[#f5f7fa]">
 
-        <div className="flex-1 px-6 m-7 ">
-        <h2 className="text-4xl font-bold text-[#4D4D4D] mb-7">{supportData.status.title}
+        <div className="flex-1 px-2 m-2 ">
+        <h2 className="text-4xl font-bold text-[#4D4D4D] mb-7 mt-5">{supportData.status.title}
           <span className="block text-[#4caf4f]">business reinvent itself</span>
         </h2>
         <p className="text-md text-[#666] mb-8">{supportData.status.subtitle}</p>
         </div>
 
-        <div className="grid grid-cols-2 gap-x-16 gap-y-8 mr-8">
+        <div className="grid grid-cols-2 gap-x-16 gap-y-8 mr-10">
         {supportData.status.achievements.map((achievement) => (
             <div key={achievement.title} className="flex items-center gap-4">
             <Image 
@@ -23,7 +23,7 @@ const Support = () => {
                 height={50}
                 />
                 <div>
-                  <h3 className="font-bold text-[#4D4D4D]" >{achievement.title}</h3>
+                  <h3 className=" text-xl font-bold text-[#4D4D4D]" >{achievement.title}</h3>
                 <p className="text-sm text-[#666]">{achievement.subtitle}</p>
                 </div>
             </div>
