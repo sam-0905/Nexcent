@@ -2,7 +2,7 @@ import { SupportData } from "@/.next/types/home"
 
 export const supportData : SupportData = {
     status:{
-    title:"Helping a local business reinvent itself",
+    title:"Helping a local",
     subtitle:"We reached here with our hard work and dedication",
     achievements:[
         {
