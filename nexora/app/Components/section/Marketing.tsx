@@ -7,9 +7,10 @@ const Marketing = () => {
            <> 
             <div className="flex flex-col">
                 <div className="text-center mt-10">
-                    <h2 className="mx-auto mb-5 max-w-md text-center text-3xl font-bold text-[#4D4D4D]">{marketing.title}</h2>
-                    <p className="text-md text-[#666] mb-8">{marketing.subtitle}</p>
-
+                    <div>
+                        <h2 className="mx-auto mb-5 max-w-md text-center text-3xl font-bold text-[#4D4D4D]">{marketing.title}</h2>
+                    <p className="mx-auto mb-8 w-[50%] text-md text-[#666] text-center">{marketing.subtitle}</p>
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 lg:px-20">
                         {marketing.cards.map((card)=>(
                             <div key={card.title} className="relative h-[350px] w-full overflow-hidden rounded-lg">
