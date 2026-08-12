@@ -6,11 +6,11 @@ import {headerData} from '@/data/header'
 const Header = () => {
   return (
     <>
-    <header className="flex items-center justify-between p-4 px-5 m-1 mx-2 cursor-pointer w-full mb-5">
-        <div className="flex items-center space-x-2 m-1 px-3 ">
+    <header className="flex flex-col items-center gap-3 md:flex-row md:justify-between mt-3 mb-1 ml-auto">
+        <div className="flex items-center px-1 m-1">
             <Image src={headerData.logo.src} alt={headerData.logo.alt} width={150} height={100} className="object-contain vertical-align-middle"/>
         </div>
-        <nav className="flex space-x-4">
+        <nav className="flex space-x-2 flex-wrap m-1 px-3">
           {headerData.navigation.map((item) => (
             <Link key={item.label} href={item.href}>
               {item.label}
@@ -18,7 +18,7 @@ const Header = () => {
           ))}
         </nav>
 
-    <div className="flex space-x-4">
+    <div className="flex space-x-3">
        <button className= "text-[#4caf4f] px-4 py-2 rounded">Login</button>
       <button className="bg-[#4caf4f] text-white px-4 py-2 rounded">Sign up</button>
     </div>
