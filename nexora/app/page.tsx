@@ -1,9 +1,9 @@
 import Header from "@/Components/layout/Header";
 import Hero from "@/Components/section/Hero";
-import Marketing from "@/Components/section/marketing";
-import Services from "@/Components/section/services";
-import Support from "@/Components/section/support";
-import Testimonials from "@/Components/section/testimonial";
+import Marketing from "@/Components/section/Marketing";
+import Services from "@/Components/section/Services";
+import Support from "@/Components/section/Support";
+import Testimonials from "@/Components/section/Testimonial";
 
 export default function Home() {
   return (
