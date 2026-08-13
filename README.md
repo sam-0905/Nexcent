@@ -143,11 +143,11 @@ Nexora:
 https://nexoracent.netlify.app/
 
 
-###🎨 Design
+### 🎨 Design
 
 ### The landing page was recreated based on the provided Figma design while maintaining responsive behavior and reusable component architecture.
 
-##📌 Assessment Focus
+## 📌 Assessment Focus
 
 ### This project demonstrates:
 
@@ -159,9 +159,9 @@ https://nexoracent.netlify.app/
 =Clean code organization
 =Modern frontend development practices
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
-J. Allan Sam
+-- J. Allan Sam
 
 Frontend Developer | React.js | TypeScript | Next.js
 
