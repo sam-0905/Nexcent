@@ -144,8 +144,7 @@ https://nexoracent.netlify.app/
 
 
 ### 🎨 Design
-
-### The landing page was recreated based on the provided Figma design while maintaining responsive behavior and reusable component architecture.
+- The landing page was recreated based on the provided Figma design while maintaining responsive behavior and reusable component architecture.
 
 ## 📌 Assessment Focus
 
